@@ -14,7 +14,7 @@ public class IsSymmetricBST {
         // out(root);
         // if(l1.equals(l2))
         // return true;
-        // return false;
+        /// return false;
     }
     boolean check(TreeNode a,TreeNode b){
         if(a==null&&b==null)
