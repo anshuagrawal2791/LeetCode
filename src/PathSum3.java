@@ -35,7 +35,7 @@ public class PathSum3 {
             if(inc){
                 // int x=0;
                 if(root.left!=null)
-                    x+=check(root.left,sum-root.val,inc);
+                    px+=check(root.left,sum-root.val,inc);
                 if(root.right!=null)
                     x+=check(root.right,sum-root.val,inc);
                 return x;
